@@ -1,0 +1,11 @@
+[27-May-2014 06:59:34 America/Chicago] PHP Warning:  Unterminated comment starting line 153 in /home3/locname/public_html/index.php on line 153
+[27-May-2014 06:59:48 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Undefined method Ion_auth::login_by_provider() called' in /home3/locname/public_html/sparks/auth/2.0/libraries/Ion_auth.php:113
+Stack trace:
+#0 /home3/locname/public_html/application/controllers/auth.php(101): Ion_auth->__call('login_by_provid...', Array)
+#1 /home3/locname/public_html/application/controllers/auth.php(101): Ion_auth->login_by_provider('Facebook', '1158380380')
+#2 [internal function]: Auth->login_provider('Facebook', 'home')
+#3 /home3/locname/public_html/application/core/MY_Controller.php(81): call_user_func_array(Array, Array)
+#4 /home3/locname/public_html/system/core/CodeIgniter.php(325): MY_Controller->_remap('login_provider', Array)
+#5 /home3/locname/public_html/index.php(403): require_once('/home3/locname/...')
+#6 {main}
+  thrown in /home3/locname/public_html/sparks/auth/2.0/libraries/Ion_auth.php on line 113

@@ -1,0 +1,80 @@
+/* style the logo of locname in autocomplete */
+.ui-menu .ui-menu-item .ui-menu-item-icon {
+    background-repeat: no-repeat;
+    background-size: 16px;
+    background-image: url('../img/favicon.png');
+    width: 15px;
+    height: 20px;
+    padding-right: 7px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.ui-menu .ui-menu-item {
+    padding: 0 4px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    line-height: 30px;
+    text-align: left;
+    font-size: 11px;
+    color: #999;
+}
+
+.ui-autocomplete-term {
+    font-weight: bold;
+    color: black;
+}
+
+body {
+    background-color: #f3f4f3;
+}
+
+form {
+    margin-left: 20px;
+}
+
+h3 {
+    margin-left: 10px
+}
+
+.ui-menu-item-icon-google {
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 20px;
+    margin-right: 7px;
+    margin-top: 2px;
+    display: inline-block;
+    vertical-align: top;
+    background-image: url(https://maps.gstatic.com/mapfiles/api-3/images/autocomplete-icons.png);
+    background-size: 34px;
+    background-position: -1px -161px;
+}
+
+.pac-logo:after {
+    content: "";
+    padding: 1px 1px 1px 0;
+    height: 16px;
+    text-align: right;
+    display: block;
+    background-image: url(https://maps.gstatic.com/mapfiles/api-3/images/powered-by-google-on-white3.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 120px 14px;
+}
+
+.locName-logo:after {
+    content: "";
+    color:gray;
+    margin: 0px 0px 4px 3px;
+    font-size: 0.7em;
+    padding: 1px 1px 1px 0;
+    background-size: 150px;
+    background-image: url('../img/PoweredBy.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 16px;
+    text-align: right;
+    display: block;
+}
+

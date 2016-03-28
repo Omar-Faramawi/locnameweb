@@ -1,0 +1,1001 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,500italic,700,400);
+
+body {
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+.desk_right {
+    text-align: right;
+}
+
+.desk_left {
+    text-align: left;
+}
+
+/*Pix 1*/
+.pixfort_pix_1 .tesi_style {
+    background: #5ca4fc;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.pixfort_pix_1 .q-icon {
+    padding-bottom: 30px;
+}
+
+/* Testmonial Section Class */
+.pixfort_pix_1 .testimonials {
+    text-align: center;
+}
+
+/* Quote Text */
+.pixfort_pix_1 .quote-text {
+    color: #fff;
+    font-size: 28px;
+    font-wight: bold;
+    line-height: 35px;
+}
+
+/* Quote Dots */
+.pixfort_pix_1 .quote-dots {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 28px;
+    font-wight: bold;
+    line-height: 35px;
+}
+
+/* Quote Title */
+.pixfort_pix_1 .quote-title {
+    color: #fff;
+    font-size: 18px;
+    font-wight: bold;
+    line-height: 30px;
+}
+
+/* Quote Link */
+.pixfort_pix_1 .quote-link {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+}
+
+/* Quote Icon Image */
+.pixfort_pix_1 #lp-pom-image-84 {
+    opacity: 0.5;
+}
+
+/*Pix 2*/
+.pixfort_pix_2 .header_1_style {
+    background: #fff;
+    box-shadow: 0 -3px 0 0 rgba(0, 0, 0, 0.1) inset;
+}
+
+.test .pix_video_div {
+    position: fixed;
+    z-index: -200 !important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.test video {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -200 !important;
+    background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+    background-attachment: scroll !important;
+    object-fit: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+}
+
+/* #Video Section
+================================================== */
+.has-video {
+    position: relative;
+    overflow: hidden;
+}
+
+.pix_full_screen {
+    min-height: 100% !important;
+}
+
+.has-video .section_video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 100%;
+    min-width: 100%;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.has-video .section_video .mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 3;
+    background: url(../images/videomask.png) repeat center;
+}
+
+.has-video .section_wrapper {
+    position: relative;
+    z-index: 10;
+}
+
+.has-video .section_video video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 100%;
+    min-width: 100%;
+    z-index: 2;
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) {
+    .has-video .section_video {
+        display: none !important;
+    }
+}
+
+.video_warper {
+    background: #000;
+}
+
+.pix_video_bg_1 {
+    overflow: hidden;
+    position: relative;
+}
+
+.pixfort_sticky {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+@media screen and (max-device-width: 800px) {
+    #bgvid {
+        display: none;
+    }
+
+}
+
+/*Slider*/
+.pixfort_pix_slider {
+    padding: 80px 0;
+    background: #eee;
+}
+
+/*Icons*/
+/*footer*/
+.bottom-icons {
+    font-size: 18px;
+    line-height: 1;
+    display: inline-block;
+    margin: 0px;
+}
+
+.bottom-links,
+.bottom-icons {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.bottom-links li,
+.bottom-icons li {
+    display: block;
+    float: left;
+    margin: 0px;
+}
+
+.bottom-icons li a {
+    text-decoration: none;
+    margin: 0 18px 0 0;
+}
+
+.bottom-icons li a:hover {
+    opacity: 0.6;
+}
+
+.pixfort_footer_1 .bottom-icons a {
+    color: #888;
+}
+
+/*header*/
+.icon-item {
+    display: inline-block !important;
+    float: left;
+}
+
+.icon-item a {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    line-height: auto;
+}
+
+.featutes_icon {
+    font-size: 48px;
+    vertical-align: center;
+    line-height: 50px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+}
+
+.pix_header_button {
+    background: #59a3fc;
+    border-radius: 3px;
+    padding: 10px 15px;
+    color: #fff;
+}
+
+/*New footer 1*/
+.new_footer_1 {
+    background: #eee;
+    padding: 30px 0;
+}
+
+.footer_1_text {
+    line-height: 20px;
+}
+
+/*pix_contents*/
+.pix_contents {
+    background: #f3f3f3;
+    padding: 20px 0;
+}
+
+.pix_contents p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.pix_contents .content_div {
+    padding: 15px;
+}
+
+.pix_contents .content_div h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    line-height: 35px;
+    font-size: 18px;
+}
+
+.pixfort_content_3 {
+    padding: 30px 0;
+}
+
+.pixfort_content_3 .img_div {
+    text-align: center;
+    position: relative;
+    padding: 10px 0 display : inline;
+}
+
+.pixfort_content_3 .img_div img {
+    max-width: 100%;
+    height: auto display : inline;
+}
+
+/*Texts And Titles*/
+
+.pixfort_text_4 h4, .pixfort_text_3 h4, .pixfort_text_2 h4, .pixfort_text_2_1 h4, .pixfort_medical_3 h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    line-height: 35px;
+    font-size: 18px;
+    color: #444;
+}
+
+.pixfort_text_4 p, .pixfort_text_3 p, .pixfort_text_2 p, .pixfort_text_2_1 p, .pixfort_medical_3 p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    line-height: 26px;
+    font-size: 14px;
+    color: #999;
+}
+
+.pixfort_text_4 .content_div, .pixfort_text_3 .content_div, .pixfort_text_2 .content_div, .pixfort_text_2_1 .content_div, .pixfort_medical_3 .content_div {
+    padding: 25px 0;
+}
+
+.text_3_button, .text_3_button:visited {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    line-height: 35px;
+    font-size: 14px;
+    color: #59a3fc;
+    text-decoration: none;
+}
+
+.text_3_button:hover {
+    color: #2763aa;
+}
+
+.text_image_center {
+    text-align: center;
+    padding-top: 45px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.text_image_center img {
+    max-width: 100%;
+}
+
+/*MEDICAL LANDING PAGE START*/
+
+.medical_text_button, .medical_text_button:visited {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    line-height: 20px;
+    font-size: 14px;
+    color: #f7941d;
+    text-decoration: none;
+}
+
+.medical_text_button:hover {
+    color: #d17b13;
+}
+
+.pixfort_medical_3 {
+    background-color: #f4f4f4;
+}
+
+.pixfort_medical_16 .med_call {
+    position: relative;
+    display: inline-block;
+    text-align: center
+}
+
+.pixfort_medical_16 .img4_st {
+    position: relative;
+    display: inline-block;
+    width: 79%;
+    height: auto
+}
+
+.pixfort_medical_16 .Designs_style {
+    background: #fff;
+    background-size: cover;
+    padding: 70px 0
+}
+
+.pixfort_medical_16 .Designs_text_style {
+    position: relative;
+    display: inline-block;
+    text-align: left;
+    padding-left: 25px;
+    max-width: 435px;
+    vertical-align: top;
+/ / top : 10 px
+}
+
+.pixfort_medical_16 .med_tit {
+    color: #000;
+    font-family: 'open sans', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 100%
+}
+
+.pixfort_medical_16 .med_subtit {
+    color: #555;
+    font-size: 20px;
+    font-family: 'open sans', sans-serif
+}
+
+.pixfort_medical_16 .med_text {
+    color: #a9a9a9;
+    font-size: 16px;
+    font-family: 'open sans', sans-serif;
+    line-height: 200%;
+    position: relative;
+    top: -15px
+}
+
+.pixfort_medical_16 .med_btn a {
+    background: #f7941d;
+    border: none;
+    border-radius: 2px;
+    font-family: 'open sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    margin-top: -15px
+}
+
+.pixfort_medical_16 .med_btn a:hover {
+    background: #d17b13;
+    border: none;
+    border-radius: 2px;
+    font-family: 'open sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff
+}
+
+/*Creative*/
+.creative_icon {
+    color: rgb(241, 194, 50) !important;
+}
+
+.creative_header {
+    box-shadow: none;
+    outline-offset: -3px;
+    background-image: #333;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 0px !important;
+    background: #333 !important;
+}
+
+.creative_h_text {
+    color: rgb(243, 243, 243);
+    font-size: 18px;
+    font-family: 'open sans', sans-serif;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.creative_note {
+    color: rgb(238, 238, 238);
+    font-size: 13px;
+    font-family: 'open sans', sans-serif;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.creative_video_header .section_wrapper {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 100px 0;
+}
+
+.creative_video_header .subscribe_btn {
+    background: rgb(241, 194, 50);
+}
+
+.creative_video_header .subscribe_btn:hover {
+    background: rgb(211, 164, 30);
+}
+
+.creative_features .adv_st {
+    border: none;
+    box-shadow: none;
+}
+
+.creative_circle {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: none;
+    border-color: rgb(241, 194, 50);
+    border-width: 2px;
+    background-image: none;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 20px;
+    border: 2px solid rgb(241, 194, 50);
+    border-radius: 100%;
+    line-height: 0px;
+    display: inline-block;
+    position: relative
+}
+
+.creative_features .c1_style2 {
+    font-weight: 700;
+    color: #222
+}
+
+.creative_features .c2_style2 {
+    font-weight: 400;
+    color: #696969;
+    line-height: 30px
+}
+
+.creative_c_icon {
+    color: rgb(241, 194, 50);
+    font-size: 42px;
+}
+
+.creative_showcase .amazing_style {
+    margin: 0px;
+    padding-bottom: 0px;
+    padding-top: 40px;
+}
+
+.creative_showcase .pub_st {
+    padding-top: 0px;
+    margin-bottom: -5px;
+}
+
+.creative_normal_1 .m6_style {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: none;
+    background-image: none;
+    background-color: rgb(238, 238, 238);
+}
+
+.creative_normal_1 .img_style {
+    border-radius: 0px;
+    border: 1px none rgb(68, 68, 68);
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 100% !important;
+}
+
+.creative_normal_1 .t2_style {
+    color: rgb(191, 144, 0);
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.creative_normal_1 .t3_style {
+    color: rgb(136, 136, 136);
+    font-size: 16px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.creative_normal_2 .m6_style {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: none;
+    outline-offset: -3px;
+    background-image: none;
+    background-color: rgb(255, 255, 255);
+}
+
+.creative_normal_2 .t2_style {
+    color: rgb(191, 144, 0);
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.creative_normal_2 .t3_style {
+    color: rgb(153, 153, 153);
+    font-size: 16px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.creative_normal_2 .img_style {
+    border-radius: 0px;
+    border: 1px none rgb(68, 68, 68);
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.creative_normal_2 .txt_style {
+    color: rgb(102, 102, 102);
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.creative_logos {
+    padding-top: 10px;
+    padding-bottom: 25px;
+    box-shadow: none;
+    background: rgb(68, 68, 68);
+}
+
+.creative_logos .logos_title {
+    color: rgb(191, 144, 0);
+    font-size: 14px;
+    font-family: 'open sans', sans-serif;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.creative_normal_3 .adv_style {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    box-shadow: none;
+    background: url('../images/16_medical/bg2.jpg') fixed rgb(239, 243, 246);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+}
+
+.creative_normal_3 .creative_title {
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-family: 'open sans', sans-serif;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.creative_normal_3 .creative_tagline {
+    color: rgb(238, 238, 238);
+    font-size: 18px;
+    font-family: 'open sans', sans-serif;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.creative_normal_3 .creative_num {
+    color: rgb(241, 194, 50);
+    font-size: 36px;
+    font-family: 'open sans', sans-serif;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.creative_normal_3 .cc_style {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-family: 'open sans', sans-serif;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.creative_normal_4 .Homes {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    box-shadow: none;
+    background-image: none;
+    background-color: rgb(255, 255, 255);
+}
+
+.creative_normal_4 .box_Homes {
+    padding-top: 30px;
+    padding-bottom: 0px;
+    box-shadow: rgba(0, 0, 0, 0.0980392) 0px -3px 0px 0px inset;
+    background-image: none;
+    background-color: rgb(243, 243, 243);
+}
+
+.creative_normal_4 .b2_homes_st {
+    color: rgb(153, 153, 153);
+    font-size: 14px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.creative_normal_4 .Reservation_btn a {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-family: 'open sans', sans-serif;
+    background: rgb(241, 194, 50);
+}
+
+.creative_normal_4 .Reservation_btn a:hover {
+    background: rgb(211, 164, 30);
+}
+
+.creative_confirm .pixfort_normal_1 {
+    background: rgb(241, 194, 50) !important;
+}
+
+.creative_footer .new_footer_1 {
+    outline-offset: -3px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    box-shadow: none;
+    background-image: none;
+    background-color: rgb(241, 194, 50);
+}
+
+.creative_footer .creative_footer_text {
+    color: rgb(127, 96, 0);
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.footer_text_2 {
+    color: #000;
+}
+
+.creative_f_icon, .creative_f_icon:visited {
+    color: rgb(191, 144, 0);
+    font-size: 18px;
+}
+
+/*Medical*/
+.medical_header .text_span {
+    color: rgb(247, 148, 29);
+}
+
+.medical_intro .join_us_section {
+    box-shadow: none;
+    outline-offset: -3px;
+    padding-bottom: 40px;
+    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/16_medical/img2.jpg) #000 fixed no-repeat !important;
+}
+
+.medical_1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: none;
+    outline-offset: -3px;
+    background-image: none;
+    background-color: rgb(248, 248, 248);
+}
+
+.medical_1 .text_3_button {
+    color: rgb(247, 148, 29);
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.medical_2 .awesome_style {
+    padding-top: 0px;
+    padding-bottom: 40px;
+    box-shadow: none;
+    outline-offset: -3px;
+    background-image: none;
+    background-color: rgb(238, 238, 238);
+}
+
+.medical_2 .h_awesome {
+    color: rgb(68, 68, 68);
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.medical_2 .txt_awesome {
+    color: rgb(102, 102, 102);
+    font-size: 24px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.medical_2 .via_st {
+    color: rgb(247, 148, 29);
+    font-size: 14px;
+    font-family: 'open sans', sans-serif;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.medical_3 .Room_Res {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-shadow: none;
+    outline-offset: -3px;
+    background-image: none;
+    background-color: rgb(68, 68, 68);
+}
+
+.medical_3 .Get_Room {
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.medical_3 .txt_Res {
+    color: rgb(153, 153, 153);
+    font-size: 14px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.medical_3 .Res_btn a {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-family: 'open sans', sans-serif;
+    background-color: rgb(247, 148, 29);
+}
+
+.medical_3 .Res_btn a:hover {
+    background-color: rgb(227, 128, 19);
+}
+
+.medical_footer .pix_footers {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    box-shadow: none;
+    background-image: none;
+    background-color: rgb(51, 51, 51);
+}
+
+.medical_footer .footer_1_text span {
+    color: rgb(153, 153, 153);
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.medical_strong {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.medical_icon {
+    color: rgb(247, 148, 29);
+    font-size: 18px;
+}
+
+.medical_logos .logos_st img {
+    border-radius: 0px;
+    border: 1px none rgb(68, 68, 68);
+    width: 176px;
+    height: 60px;
+}
+
+.elegant_2 .page_style {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    box-shadow: none;
+    outline-offset: -3px;
+    outline: none;
+    cursor: default;
+    background-image: url(../images/18_elegant/Hero-Header.png);
+    background-color: rgb(89, 163, 252);
+}
+
+.elegant_2 .green_segment {
+    background: #fff;
+}
+
+.elegant_2 .get_1_btn a {
+    background: transparent;
+    border-color: #fff;
+    color: #fff;
+}
+
+.elegant_2 .get_1_btn a:hover {
+    color: #59a3fc;
+    background: #fff;
+}
+
+.elegant_2 .title {
+    color: rgb(255, 255, 255);
+    font-size: 54px;
+}
+
+.elegant_2 .subtitle {
+    color: rgb(207, 226, 243);
+    font-size: 16px;
+}
+
+.elegant_3 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    box-shadow: none;
+    outline-offset: -3px;
+    outline: none;
+    cursor: default;
+    background-image: none;
+    background-color: rgb(246, 246, 246);
+}
+
+.elegant_4 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: none;
+    outline-offset: -3px;
+    background-image: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.elegant_4 .link_3_btn a {
+    background: #59a3fc;
+}
+
+.elegant_4 .link_3_btn a:hover {
+    background: #4090e0;
+}
+
+.elegant_4 .logo_style {
+    border-radius: 100%;
+    border: 1px none rgb(68, 68, 68);
+    width: 200px;
+    height: 200px;
+    outline: none;
+    cursor: default;
+}
+
+.elegant_5 .New_Latest_Off {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-shadow: none;
+    outline-offset: -3px;
+    background-image: none;
+    background-color: rgb(243, 243, 243);
+}
+
+.elegant_5 .N2_style {
+    color: rgb(153, 153, 153);
+    font-size: 16px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.elegant_6 {
+    outline-offset: -3px;
+    padding-top: 40px;
+    padding-bottom: 0px;
+    box-shadow: none;
+    outline: none;
+    cursor: default;
+    background-image: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.elegant_6 .send_btn button {
+    background: #59a3fc !important;
+}
+
+.elegant_6 .send_btn button:hover {
+    background: #4090e0 !important;
+}
+
+.elegant_6 .icon_st img {
+    border-radius: 0px;
+    border: 1px none rgb(68, 68, 68);
+    width: 90px;
+    height: 90px;
+    outline: none;
+    cursor: default;
+}
+
+.elegant_7 .logos_sect {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    box-shadow: none;
+    outline-offset: -3px;
+    outline: none;
+    cursor: default;
+    background-image: none;
+    background-color: rgb(255, 255, 255);
+}
+
+.elegant_8 .tesi_style {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    box-shadow: none;
+    outline-offset: -3px;
+    outline: none;
+    cursor: default;
+    background-image: none;
+    background-color: rgb(89, 163, 252);
+}
+
+.elegant_9 .new_footer_1 {
+    outline-offset: -3px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    box-shadow: none;
+    outline: none;
+    cursor: default;
+    background-image: none;
+    background-color: rgb(64, 138, 227);
+}
+
+.elegant_9 .elegant_footer {
+    color: rgb(159, 197, 232);
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    outline: none;
+    cursor: default;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.elegant_9 .elegant_strong {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    outline: none;
+    cursor: default;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.elegant_9 .elegant_icon {
+    color: rgb(159, 197, 232);
+    font-size: 18px;
+    outline: none;
+}
+
+.confirm_elegant {
+    background: #59a3fc;
+}
